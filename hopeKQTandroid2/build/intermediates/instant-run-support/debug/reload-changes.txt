@@ -1,0 +1,3 @@
+CHANGED,C:\Users\han\AndroidStudioProjects\HopeKQT-android2\hopeKQTandroid2\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\hope\kqt\android\UserDataChartActivity$override.class
+CHANGED,C:\Users\han\AndroidStudioProjects\HopeKQT-android2\hopeKQTandroid2\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,C:\Users\han\AndroidStudioProjects\HopeKQT-android2\hopeKQTandroid2\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\hope\kqt\android\UserDataChartActivity$1$override.class

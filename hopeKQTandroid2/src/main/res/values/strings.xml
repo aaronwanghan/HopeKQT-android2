@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">1°健康人生</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_tasks">餐单</string>
+    <string name="user_datas">查看数据</string>
+    <string name="user_imgs">医学检查</string>
+    <string name="user_values">用户信息</string>
+    <string name="teacher_values">教练信息</string>
+    <string name="system_settings">设置</string>
+    <string name="logout">注销</string>
+    <string name="edit_datas">测量数据</string>
+    <string name="teacher_phone">联系教练</string>
+    <string name="food_help_messages">食物随身卡</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

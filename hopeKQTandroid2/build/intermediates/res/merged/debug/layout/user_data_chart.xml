@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:id="@+id/user_data_chart_parent_layout">
+
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="200dp" 
+    	android:id="@+id/user_data_chart_layout"
+    	/>
+    <LinearLayout
+        android:id="@+id/user_data_chart_values_titles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" />
+    
+    <ListView
+        android:id="@+id/user_data_chart_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

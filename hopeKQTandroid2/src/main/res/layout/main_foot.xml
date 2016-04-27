@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="horizontal"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:id="@+id/main_foot_user_tasks_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:onClick="layoutOnClickMethod"
+        android:background="@drawable/menu_button_style">
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/uts"
+            android:contentDescription="@string/user_tasks"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/user_tasks"/>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_foot_user_datas_button"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:onClick="layoutOnClickMethod"
+        android:background="@drawable/menu_button_style">
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/datas"
+            android:contentDescription="@string/user_datas"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/user_datas"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/main_foot_user_imgs_button"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:onClick="layoutOnClickMethod"
+        android:background="@drawable/menu_button_style">
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/prs"
+            android:contentDescription="@string/user_imgs"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/user_imgs"/>
+        
+    </LinearLayout>
+
+</LinearLayout>

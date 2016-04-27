@@ -1,0 +1,15 @@
+<resources>
+    
+    <string-array name="ul_e_items">
+        <item>饥饿</item>
+        <item>腹泻/呕吐</item>
+        <item>头晕</item>
+        <item>关节痛</item>
+        <item>血压升高</item>
+        <item>盗汗</item>
+        <item>胃痛</item>
+        <item>疲劳/无力</item>
+        <item>尿频</item>
+        <item>皮肤反应</item>
+    </string-array>
+</resources>

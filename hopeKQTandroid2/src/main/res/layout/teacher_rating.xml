@@ -1,0 +1,20 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+    	android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center" >
+        
+        <TextView
+        	android:id="@+id/tr_text"
+        	android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+        	android:text="TextView" />
+        
+        <RatingBar
+        	android:id="@+id/tr_ratingBar"
+       		style="?android:attr/ratingBarStyleIndicator"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"/>
+    </LinearLayout>

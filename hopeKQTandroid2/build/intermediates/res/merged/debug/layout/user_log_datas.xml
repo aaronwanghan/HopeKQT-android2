@@ -1,0 +1,228 @@
+<TabHost
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/data_tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+   		android:layout_height="fill_parent"
+   		android:orientation="vertical">
+        <TabWidget 
+            android:layout_width="fill_parent"
+	        android:layout_height="60dip"
+	        android:gravity="center"
+	        android:layout_gravity="center"
+	        android:id="@android:id/tabs"/>
+       <FrameLayout
+           
+            android:id="@android:id/tabcontent"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent">
+            <ScrollView
+                android:id="@+id/data_utl_view"
+    			android:layout_width="fill_parent"
+    			android:layout_height="fill_parent" 
+				>
+				<LinearLayout
+                    android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+            <ListView
+                android:id="@+id/data_utl_listview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button 
+                android:id="@+id/data_utl_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+        		android:background="@drawable/button_style"
+        		android:textColor="#FFF"
+                android:text="提交"
+                android:enabled="false"/>
+            
+            </LinearLayout>
+            </ScrollView>
+          
+                <LinearLayout
+                    android:id="@+id/data_ml_view"
+                    android:layout_width="fill_parent"
+                	android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+                 	<ListView
+                    	android:id="@+id/data_ml_listview"
+                		android:layout_width="fill_parent"
+                		android:layout_height="wrap_content"/>
+                
+					 <Button 
+                        android:id="@+id/data_ml_add_button"
+                        android:layout_width="match_parent"
+                    	android:layout_height="wrap_content"
+                    	android:layout_margin="5dp"
+        				android:background="@drawable/button_style"
+        				android:textColor="#FFF"
+                    	android:text="添加 "
+                    	android:enabled="false" />
+                </LinearLayout>
+                
+                <ScrollView
+                android:id="@+id/data_ul_view"
+    			android:layout_width="fill_parent"
+    			android:layout_height="fill_parent" 
+				>
+                
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                	android:layout_height="wrap_content"
+                	android:orientation="vertical"
+                	android:layout_margin="5dp">
+                    
+                    <TextView 
+                        android:layout_width="fill_parent"
+                		android:layout_height="wrap_content"
+                		android:text="康复反应"/>
+                    
+                    <GridView 
+                    	android:layout_width="fill_parent"
+                		android:layout_height="220dp"
+                		android:id="@+id/data_ul_gridview"
+                		android:numColumns="auto_fit"
+						android:verticalSpacing="2dp"
+						android:horizontalSpacing="2dp" 
+						android:columnWidth="100dp"
+						android:stretchMode="columnWidth"
+						android:gravity="center" />
+                    
+                    <TextView 
+                        android:layout_width="wrap_content"
+            			android:layout_height="wrap_content"
+            			android:text="其它"/>
+                    
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/data_ul_edit"
+                        android:maxLength="200"
+                        android:lines="4" />
+
+                    <Button
+                        android:id="@+id/data_ul_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+        				android:background="@drawable/button_style"
+        				android:textColor="#FFF"
+                        android:text="提交"/>
+                </LinearLayout>
+            </ScrollView>
+            <LinearLayout
+                android:id="@+id/data_end_view"
+                android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+   				android:orientation="vertical"
+    			android:layout_margin="5dp">
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自我小结"/>
+    
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="5"
+        android:maxLength="200"
+        android:id="@+id/data_end_content_edit"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="评价教练" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+       <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+           <TextView
+               android:id="@+id/textView2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="教练态度"
+               />
+
+           <RatingBar
+               android:id="@+id/data_end_ratingbar1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:numStars="5"
+               android:stepSize="1" />
+
+        </TableRow>
+
+       <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="专业程度"
+                />
+
+           <RatingBar
+               android:id="@+id/data_end_ratingbar2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:numStars="5"
+               android:stepSize="1" />
+
+        </TableRow>
+        
+       <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center" >
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="认真及时"
+                />
+
+           <RatingBar
+               android:id="@+id/data_end_ratingbar3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:numStars="5"
+               android:stepSize="1" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/data_end_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_style"
+        android:textColor="#FFF"
+        android:text="提交"
+        android:enabled="false" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</TabHost>

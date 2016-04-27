@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp" 
+    android:padding="1dp">
+
+<TextView
+       android:id="@+id/umlr_time_text"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_centerVertical="true"
+       android:paddingLeft="20dp"
+       android:text="time" />
+
+<TextView
+        android:id="@+id/umlr_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="name" />
+
+    <TextView
+    android:id="@+id/umlr_unit_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+   	android:paddingRight="20dp"
+    android:text="unit" />
+    
+    <TextView
+        android:id="@+id/umlr_value_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/umlr_unit_text"
+        android:layout_centerVertical="true"
+        android:paddingRight="10dp"
+        android:text="num" />
+
+</RelativeLayout>
